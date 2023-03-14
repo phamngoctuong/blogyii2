@@ -1,0 +1,13 @@
+build:
+  environment:
+    php: 7.4.30
+  nodes:
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run
+checks:
+  php: true
+filter: {  }
+coding_style:
+  php: {  }
